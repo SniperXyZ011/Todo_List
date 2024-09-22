@@ -1,0 +1,23 @@
+.mainWraper {
+    /* height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    padding: 50px;
+    
+}
+
+.headerTitle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    /* background-color: aqua; */
+}
+
+.todoListWrapper {
+    /* background-color: grey; */
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
